@@ -13,6 +13,7 @@ public class Provider {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(new String[]{"provider.xml"});
         context.start();
         System.out.println("Provider started.");
+
         System.in.read(); // press any key to exit
     }
 }
